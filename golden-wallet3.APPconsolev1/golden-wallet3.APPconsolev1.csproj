@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>golden_wallet3.APPconsolev1</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\golden-wallet3.BLL\golden-wallet3.BLL.csproj" />
+    <ProjectReference Include="..\golden-wallet3.MODEL\golden-wallet3.MODEL.csproj" />
+  </ItemGroup>
+
+</Project>
